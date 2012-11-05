@@ -61,7 +61,7 @@ class AwesomeCrop
             wp_enqueue_script('image-edit', plugins_url('/js/image-edit.js', __FILE__), array('jquery', 'json2', 'imgareaselect'), '1.0' );
         }
     }
-  
+
 }
 
 add_action('wp_ajax_awesomecrop_aspect_ratio', 'awesomecrop_aspect_ratio');

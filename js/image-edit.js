@@ -1,7 +1,7 @@
 var ajaxurl = '/wp-admin/admin-ajax.php';
 var imageEdit;
 
-(function($) { 
+(function($) {
 imageEdit = {
     iasapi : {},
     hold : {},
@@ -41,7 +41,7 @@ imageEdit = {
             var k = e.keyCode;
 
             if ( 36 < k && k < 41 )
-                $(this).blur()
+                $(this).blur();
 
             if ( 13 == k ) {
                 e.preventDefault();
@@ -642,5 +642,5 @@ imageEdit = {
             }
         }
     }
-}
+};
 })(jQuery);
